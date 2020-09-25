@@ -16,3 +16,4 @@ I = (b*(h**3))/12
 
 delta_max = (F*(L**3))/(3*E*I)
 
+print("La déformation maximale de la poutre est " + str(round(delta_max, 2)) + " mm")
